@@ -1,3 +1,4 @@
+#lekcja 2: pętle for oraz instrukcja warunkowa if
 #komendy
 commands = ["Gig1/0/1", "Gig1/0/2", "Gig1/0/3"]
 
