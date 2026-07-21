@@ -1,3 +1,4 @@
+#lekcja 3: funkcje (def)
 #definicja funkcji, intrukcja warunkowa, podejmowanie decyzji
 def opisz_vlan(vlan_id):
     if vlan_id == 20:
