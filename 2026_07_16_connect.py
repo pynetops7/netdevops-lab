@@ -1,3 +1,4 @@
+#zadanie 1: pierwszy skrypt automatyzacji z sandboxem przez SSH
 #import funkcji ConnectHandler z biblioteki netmiko
 from netmiko import ConnectHandler
 
