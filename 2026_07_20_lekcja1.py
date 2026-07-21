@@ -1,3 +1,4 @@
+#lekcja 1: zmienne i typy danych
 #dane
 host = "grzegorz"
 port = 42
