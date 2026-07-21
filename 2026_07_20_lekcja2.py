@@ -1,11 +1,11 @@
-commands = ["show version", "show vlan", "show interfaces"]
+commands = ["Gig1/0/1", "Gig1/0/2", "Gig1/0/3"]
 
 for cmd in commands:
-    print(cmd)
+    print(f"Sprawdzam interfejs: {cmd}")
 
-status = "up"
+vlan_id = 10
 
-if status == "up":
-    print("Interfejs działa")
+if vlan_id == 10:
+    print("VLAN domyślny")
 else:
-    print("Interfejs nie działa")   
+    print("VLAN niestandardowy")   
