@@ -1,5 +1,7 @@
+#import funkcji ConnectHandler z biblioteki netmiko
 from netmiko import ConnectHandler
 
+#urządzenie
 device = {
     "device_type": "cisco_xe",   # typ systemu operacyjnego urządzenia
     "host": "devnetsandboxiosxec9k.cisco.com",      # hostname lub IP z panelu Cisco
@@ -8,10 +10,10 @@ device = {
     "port": 22,
 }
 
-# nawiązuje połączenie SSH
+# nawiązuje połączenie nową sesję SSH z urządzeniem
 conn = ConnectHandler(**device)
 
-# wysyła komendę tak, jakbyś sam ją wpisał w terminalu na routerze
+# wysyła komendę zgodnie z możliwościami urządzenia
 output = conn.send_command("show ip interface brief")
 
 # wypisuje odpowiedź urządzenia
